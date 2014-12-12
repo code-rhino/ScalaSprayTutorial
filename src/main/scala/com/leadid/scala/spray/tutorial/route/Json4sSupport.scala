@@ -1,0 +1,13 @@
+package com.leadid.scala.spray.tutorial.route
+
+import org.json4s._
+import org.json4s.jackson.Serialization
+import spray.httpx.Json4sJacksonSupport
+
+object Json4sSupport extends Json4sJacksonSupport {
+  override implicit def json4sJacksonFormats: Formats = Serialization.formats(NoTypeHints)
+
+  def toJValue[T](value:T):JValue = {
+    Extraction.decompose(value)
+  }
+}
