@@ -1,6 +1,7 @@
-package com.leadid.scala.spray.tutorial.domain
+package com.coderhino.scala.spray.tutorial.domain
 
 import akka.actor.{Actor, ActorLogging}
+import com.coderhino.scala.spray.tutorial.domain.GreeterActor.{GreetingResponse, GreetingRequest}
 
 object GreeterActor {
   case class GreetingRequest(msg:String)

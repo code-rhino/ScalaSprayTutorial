@@ -1,8 +1,8 @@
-package com.leadid.scala.spray.tutorial
+package com.coderhino.scala.spray.tutorial
 
-import com.leadid.scala.spray.core.{CoreActors, BootedCore}
-import com.leadid.scala.spray.tutorial.api.Api
-import com.leadid.scala.spray.tutorial.core.Web
+import com.coderhino.scala.spray.tutorial.core.Api
+import com.coderhino.scala.spray.core.{CoreActors, BootedCore}
+import com.coderhino.scala.spray.tutorial.core.Web
 
 
 object Boot extends App with BootedCore with CoreActors with Api with Web

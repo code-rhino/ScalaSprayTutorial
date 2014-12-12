@@ -22,7 +22,7 @@ libraryDependencies ++= {
     "com.typesafe.akka"   %%  "akka-slf4j"            % akkaV,
     "org.scalatest"       %%  "scalatest"             % "2.2.2",
     "com.typesafe.akka"   %%  "akka-testkit"          % akkaV   % "test",
-    "io.spray"            %%  "spray-json"            % sprayV,
+//    "io.spray"            %%  "spray-json"            % sprayV,
     "org.json4s"          %%  "json4s-jackson"        % "3.2.10",
     "mysql"               %   "mysql-connector-java"  % "5.1.34",
     "ch.qos.logback"      %   "logback-classic"       % "1.1.2"
