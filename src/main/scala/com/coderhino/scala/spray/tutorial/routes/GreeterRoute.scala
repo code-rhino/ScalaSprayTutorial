@@ -1,10 +1,11 @@
-package com.leadid.scala.spray.tutorial.route
+package com.leadid.scala.spray.tutorial.routes
 
 import akka.pattern.ask
 import akka.actor.ActorRef
-import com.leadid.scala.spray.tutorial.core.actors.GreeterActor._
+import com.leadid.scala.spray.tutorial.domain.GreeterActor
+import GreeterActor._
 import spray.http.{HttpResponse,StatusCode, StatusCodes}
-import com.leadid.scala.spray.tutorial.route.RouteImplicits._
+import com.leadid.scala.spray.tutorial.routes.RouteImplicits._
 import spray.routing.{RequestContext, Directives}
 import scala.concurrent.ExecutionContext
 

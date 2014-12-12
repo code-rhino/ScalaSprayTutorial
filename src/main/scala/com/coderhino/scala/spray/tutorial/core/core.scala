@@ -2,7 +2,7 @@ package com.leadid.scala.spray.core
 
 import akka.actor.ActorSystem
 import akka.actor.Props
-import com.leadid.scala.spray.tutorial.core.actors.GreeterActor
+import com.leadid.scala.spray.tutorial.domain.GreeterActor
 
 trait Core {
   implicit def system:ActorSystem

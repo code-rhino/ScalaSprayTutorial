@@ -1,4 +1,4 @@
-package com.leadid.scala.spray.tutorial.route
+package com.leadid.scala.spray.tutorial.routes
 
 import akka.util.Timeout
 import scala.concurrent.duration._

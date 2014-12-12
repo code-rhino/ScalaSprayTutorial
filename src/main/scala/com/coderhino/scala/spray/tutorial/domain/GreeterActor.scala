@@ -1,6 +1,6 @@
-package com.leadid.scala.spray.tutorial.core.actors
+package com.leadid.scala.spray.tutorial.domain
 
-import akka.actor.{ActorLogging, Actor}
+import akka.actor.{Actor, ActorLogging}
 
 object GreeterActor {
   case class GreetingRequest(msg:String)
@@ -8,7 +8,6 @@ object GreeterActor {
 }
 
 class GreeterActor extends Actor with ActorLogging {
-  import com.leadid.scala.spray.tutorial.core.actors.GreeterActor._
   def receive:Receive = {
     case GreetingRequest(msg) => {
       log.debug("A Greeting Request was made")

@@ -1,4 +1,4 @@
-package com.leadid.scala.spray.tutorial.route
+package com.leadid.scala.spray.tutorial.routes
 
 import org.json4s._
 import org.json4s.jackson.Serialization
